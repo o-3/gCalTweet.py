@@ -5,12 +5,19 @@ gCalTweet.py
 ======================
 Helps creating a bot to automatically tweet events from Google Calendar.
 
+
+## Dependencies
+
+```
+tweepy==2.1
+APScheduler==3.0.0
+google-api-python-client
+PyCrypto==2.6
+```
+
 ## Installation
 
-To run locally,
-
-    npm pip install
-
+Install dependencies.
 
 You need to create OAuthSettings.py file: 
 ````
