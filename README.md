@@ -1,4 +1,4 @@
-**Warning!! **
+**Warning!!**
 Please be aware that this project is nicely working but incomplete for distribution.
 
 gCalTweet.py
@@ -6,6 +6,8 @@ gCalTweet.py
 Helps creating a bot to automatically tweet events from Google Calendar.
 
 ## Installation
+
+To run locally,
 
     npm pip install
 
