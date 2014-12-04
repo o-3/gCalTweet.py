@@ -41,8 +41,7 @@ In bot.py file, insert google your calendar IDs into calIds.
 
 ````
 
-## Usage
 
-Test in the terminal and use cloud services like Heroku for deployment.
+Test in the terminal first; use cloud application platforms like Heroku (free) for deployment.
 Modify ( gCalTweetBot(), GCalendar.formTweet(), etc... )  and schedulers as you want.
 Happy coding! :)
