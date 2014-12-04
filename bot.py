@@ -8,7 +8,7 @@ from datetime import datetime
 """
 
 
-def gCalTweetBot():
+def gCalTweetBot(calIds):
 
     """
     Customize to change the bot behavior.
@@ -32,15 +32,13 @@ def gCalTweetBot():
 if __name__ == "__main__":
 
     calIds = [
-        "j6hvnb2e7jdhcu19tltl24q0lo@group.calendar.google.com"
+        ""
     ]
 
-    gCalTweetBot()
+    sched = BlockingScheduler()
 
-    # sched = BlockingScheduler()
-
-    # sched.add_job(tweetBot(), 'cron', hour=6, minute=0, id="myCalendarbot")
+    sched.add_job(gCalTweetBot(calIds), 'cron', hour=6, minute=0, id="myCalendarbot")
 
 
-    # while True:
-    #     pass
+    while True:
+        pass
